@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/sang-cv/static/css/main.0ac665b0.css",
-    "main.js": "/sang-cv/static/js/main.0d7bbe9f.js",
+    "main.css": "/sang-cv/static/css/main.baed4106.css",
+    "main.js": "/sang-cv/static/js/main.c44a9a40.js",
     "static/js/787.8b8db8a6.chunk.js": "/sang-cv/static/js/787.8b8db8a6.chunk.js",
+    "static/media/avatar.jpg": "/sang-cv/static/media/avatar.1efbb11a029a95273995.jpg",
     "static/media/Raleway-Medium.ttf": "/sang-cv/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
     "static/media/Raleway-Regular.ttf": "/sang-cv/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
     "static/media/Raleway-SemiBold.ttf": "/sang-cv/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
     "static/media/Raleway-Bold.ttf": "/sang-cv/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
+    "static/media/github.svg": "/sang-cv/static/media/github.e8b1326053414d26ec0ff080d8d8001b.svg",
     "index.html": "/sang-cv/index.html",
-    "main.0ac665b0.css.map": "/sang-cv/static/css/main.0ac665b0.css.map",
-    "main.0d7bbe9f.js.map": "/sang-cv/static/js/main.0d7bbe9f.js.map",
+    "static/media/linkedin.svg": "/sang-cv/static/media/linkedin.b898a9c66e7c7340f4a088360bc9bab2.svg",
+    "main.baed4106.css.map": "/sang-cv/static/css/main.baed4106.css.map",
+    "main.c44a9a40.js.map": "/sang-cv/static/js/main.c44a9a40.js.map",
     "787.8b8db8a6.chunk.js.map": "/sang-cv/static/js/787.8b8db8a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ac665b0.css",
-    "static/js/main.0d7bbe9f.js"
+    "static/css/main.baed4106.css",
+    "static/js/main.c44a9a40.js"
   ]
 }
