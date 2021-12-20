@@ -1,0 +1,5 @@
+@layer utilities {
+  .container {
+    @apply w-full max-w-screen-desktop px-2 desktop:px-0 mx-auto;
+  }
+}

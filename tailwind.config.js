@@ -1,19 +1,19 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      phone: "600px",
+      // => @media (min-width: 600px) { ... }
+      tablet: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      laptop: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
-      screen: {
-        phone: "600px",
-        // => @media (min-width: 600px) { ... }
-        tablet: "768px",
-        // => @media (min-width: 768px) { ... }
-
-        laptop: "1024px",
-        // => @media (min-width: 1024px) { ... }
-
-        desktop: "1280px",
-        // => @media (min-width: 1280px) { ... }
-      },
       colors: {
         primary: "#040b14",
         secondary: {
@@ -34,6 +34,7 @@ module.exports = {
       fontSize: {
         14: "14px",
         16: "16px",
+        24: "24px",
         36: "36px",
         48: "48px",
         96: "96px",
@@ -43,7 +44,16 @@ module.exports = {
         1: "10px",
         1.5: "15px",
         2: "20px",
+        3.6: "36px",
+        10: "100px",
+        12: "120px",
+        20: "200px",
         30: "300px",
+      },
+
+      gridTemplateColumns: {
+        "auto-1fr": "auto 1fr",
+        "1fr-auto": "1fr auto",
       },
     },
   },

@@ -2,13 +2,9 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 export const MainLayoutContainer = styled.div`
-  ${tw``}
-`;
-
-export const Drawer = styled.div`
-  ${tw`w-30 bg-primary h-screen`}
+  ${tw`grid grid-cols-auto-1fr`}
 `;
 
 export const Content = styled.section`
-  ${tw``}
+  ${tw`overflow-y-auto`}
 `;

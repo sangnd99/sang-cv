@@ -1,4 +1,4 @@
-import "common/styles/index.scss";
+import "common/scss/index.scss";
 
 import MainLayout from "layout/MainLayout";
 
