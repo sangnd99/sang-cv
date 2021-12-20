@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sang-cv/static/css/main.0ac665b0.css",
+    "main.js": "/sang-cv/static/js/main.0d7bbe9f.js",
+    "static/js/787.8b8db8a6.chunk.js": "/sang-cv/static/js/787.8b8db8a6.chunk.js",
+    "static/media/Raleway-Medium.ttf": "/sang-cv/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
+    "static/media/Raleway-Regular.ttf": "/sang-cv/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
+    "static/media/Raleway-SemiBold.ttf": "/sang-cv/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
+    "static/media/Raleway-Bold.ttf": "/sang-cv/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
+    "index.html": "/sang-cv/index.html",
+    "main.0ac665b0.css.map": "/sang-cv/static/css/main.0ac665b0.css.map",
+    "main.0d7bbe9f.js.map": "/sang-cv/static/js/main.0d7bbe9f.js.map",
+    "787.8b8db8a6.chunk.js.map": "/sang-cv/static/js/787.8b8db8a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ac665b0.css",
+    "static/js/main.0d7bbe9f.js"
+  ]
+}
