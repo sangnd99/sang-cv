@@ -1,13 +1,8 @@
 import "common/scss/index.scss";
-
-import MainLayout from "layout/MainLayout";
+import Home from "pages/Home";
 
 const App = () => {
-  return (
-    <MainLayout>
-      <p className="text-96 font-bold">hello world</p>
-    </MainLayout>
-  );
+  return <Home />;
 };
 
 export default App;

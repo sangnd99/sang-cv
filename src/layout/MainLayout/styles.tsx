@@ -5,6 +5,6 @@ export const MainLayoutContainer = styled.div`
   ${tw`grid grid-cols-auto-1fr`}
 `;
 
-export const Content = styled.section`
-  ${tw`overflow-y-auto`}
+export const Wrapper = styled.div`
+  ${tw`overflow-y-auto max-h-screen`}
 `;

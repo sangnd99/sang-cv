@@ -6,7 +6,7 @@ body {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji" !important;
-  @apply bg-white font-normal text-black;
+  @apply bg-white font-normal text-black overflow-hidden;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
