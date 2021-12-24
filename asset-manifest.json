@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/sang-cv/static/css/main.bb1a6cae.css",
-    "main.js": "/sang-cv/static/js/main.f9092c03.js",
+    "main.css": "/sang-cv/static/css/main.ab770a8b.css",
+    "main.js": "/sang-cv/static/js/main.696490ae.js",
     "static/js/787.8b8db8a6.chunk.js": "/sang-cv/static/js/787.8b8db8a6.chunk.js",
     "static/media/avatar.jpg": "/sang-cv/static/media/avatar.1efbb11a029a95273995.jpg",
-    "static/media/Raleway-Medium.ttf": "/sang-cv/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
-    "static/media/Raleway-Regular.ttf": "/sang-cv/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
-    "static/media/Raleway-SemiBold.ttf": "/sang-cv/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
-    "static/media/Raleway-Bold.ttf": "/sang-cv/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
+    "static/media/Poppins-Regular.ttf": "/sang-cv/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/sang-cv/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/sang-cv/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/sang-cv/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-Black.ttf": "/sang-cv/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
+    "static/media/reactjs.svg": "/sang-cv/static/media/reactjs.7aa391ed495db414b2c0746f87d953e2.svg",
     "index.html": "/sang-cv/index.html",
     "static/media/github.svg": "/sang-cv/static/media/github.e8b1326053414d26ec0ff080d8d8001b.svg",
     "static/media/education.svg": "/sang-cv/static/media/education.629e639de4846329eb712022e485b0b0.svg",
+    "static/media/location.svg": "/sang-cv/static/media/location.567d211c0465c6cf8345e4563217cf2f.svg",
     "static/media/interests.svg": "/sang-cv/static/media/interests.ca6506d7eeb2c87e08e1626ae43a8d0a.svg",
     "static/media/experience.svg": "/sang-cv/static/media/experience.3710737ef58eddeacfa4d4c001dde5d6.svg",
     "static/media/skill.svg": "/sang-cv/static/media/skill.904d5e8d6342d9f8aa9081e48d56434c.svg",
     "static/media/about.svg": "/sang-cv/static/media/about.9a6e95da59005d4f13192a4a956b33d0.svg",
+    "static/media/mail.svg": "/sang-cv/static/media/mail.aa914b46985e1557e794f0b2c8f59131.svg",
     "static/media/linkedin.svg": "/sang-cv/static/media/linkedin.b898a9c66e7c7340f4a088360bc9bab2.svg",
-    "main.bb1a6cae.css.map": "/sang-cv/static/css/main.bb1a6cae.css.map",
-    "main.f9092c03.js.map": "/sang-cv/static/js/main.f9092c03.js.map",
+    "static/media/phone.svg": "/sang-cv/static/media/phone.a5e413c0563424cd7687734d0c19d249.svg",
+    "main.ab770a8b.css.map": "/sang-cv/static/css/main.ab770a8b.css.map",
+    "main.696490ae.js.map": "/sang-cv/static/js/main.696490ae.js.map",
     "787.8b8db8a6.chunk.js.map": "/sang-cv/static/js/787.8b8db8a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb1a6cae.css",
-    "static/js/main.f9092c03.js"
+    "static/css/main.ab770a8b.css",
+    "static/js/main.696490ae.js"
   ]
 }
