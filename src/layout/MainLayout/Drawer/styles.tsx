@@ -36,6 +36,9 @@ export const Menu = {
     }
   `,
   Item: styled.li`
+    ${tw``}
+  `,
+  Link: styled.a`
     ${tw`flex items-center gap-1 px-1.5 py-1.2 w-max text-gray hover:text-secondary-light duration-200 cursor-pointer`}
   `,
   Text: styled.p`

@@ -61,8 +61,10 @@ const Drawer = () => {
               className="group scroll-to"
               onClick={() => handleClick(name)}
             >
-              <Icon className="menu-icon" width={25} height={25} />
-              <Menu.Text className="menu-text">{name}</Menu.Text>
+              <Menu.Link href={`#${name}`}>
+                <Icon className="menu-icon" width={25} height={25} />
+                <Menu.Text className="menu-text">{name}</Menu.Text>
+              </Menu.Link>
             </Menu.Item>
           );
         })}

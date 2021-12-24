@@ -28,16 +28,18 @@ module.exports = {
         gray: {
           DEFAULT: "#a7a8b3",
           light: "#ced4da",
-          dark: "#2c2f3f",
+          dark: "#6c757d",
         },
       },
       fontSize: {
         14: "14px",
         16: "16px",
+        18: "18px",
+        20: "20px",
         24: "24px",
         36: "36px",
         48: "48px",
-        96: "96px",
+        70: "70px",
       },
       spacing: {
         0.5: "5px",

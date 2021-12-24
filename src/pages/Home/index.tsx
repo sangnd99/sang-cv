@@ -1,3 +1,4 @@
+import { Container } from "./styles";
 import MainLayout from "layout/MainLayout";
 
 import About from "./components/About";
@@ -9,13 +10,13 @@ import Interests from "./components/Interests";
 const Home = () => {
   return (
     <MainLayout>
-      <div id="content" className="container">
+      <Container id="content" className="container">
         <About />
         <Experience />
         <Education />
         <Skills />
         <Interests />
-      </div>
+      </Container>
     </MainLayout>
   );
 };
