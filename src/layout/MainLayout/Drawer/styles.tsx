@@ -1,8 +1,20 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 
-export const DrawerContainer = styled.div`
-  ${tw`w-30 bg-primary text-white h-screen px-1`}
+export const DrawerContainer = styled.div<{
+  isCollapseDrawer: boolean;
+  isExtendDrawer: boolean;
+}>`
+  ${tw`fixed laptop:relative w-30 bg-primary text-white h-screen px-1 duration-300`}
+  ${({ isCollapseDrawer }) => (isCollapseDrawer ? tw`w-7.5` : tw`w-30`)}
+  ${({ isExtendDrawer }) =>
+    isExtendDrawer ? tw`left-0` : tw`-left-full laptop:left-0`}
+`;
+
+export const InfoWrapper = styled.div<{ isCollapseDrawer: boolean }>`
+  ${tw`duration-300`}
+  ${({ isCollapseDrawer }) =>
+    isCollapseDrawer ? tw`invisible opacity-0` : tw`visible opacity-100`}
 `;
 
 export const AvatarWrapper = styled.div`
@@ -14,7 +26,7 @@ export const Image = styled.img`
 `;
 
 export const Name = styled.p`
-  ${tw`text-24 font-bold text-center`}
+  ${tw`text-24 font-bold text-center whitespace-nowrap`}
 `;
 
 export const Social = styled.div`
@@ -36,12 +48,24 @@ export const Menu = {
     }
   `,
   Item: styled.li`
-    ${tw``}
+    ${tw`overflow-hidden w-max`}
   `,
   Link: styled.a`
     ${tw`flex items-center gap-1 px-1.5 py-1.2 w-max text-gray hover:text-secondary-light duration-200 cursor-pointer`}
   `,
-  Text: styled.p`
+  Text: styled.p<{ isCollapseDrawer: boolean }>`
     ${tw`text-16 font-medium group-hover:text-white duration-200 capitalize`}
+    ${({ isCollapseDrawer }) =>
+      isCollapseDrawer ? tw`invisible opacity-0` : tw`visible opacity-100`}
   `,
 };
+
+export const IconWrapper = styled.div`
+  ${tw`absolute w-4 h-4 left-[calc(100% + 10px)] top-1 z-50 hidden laptop:flex items-center justify-center flex-shrink-0 hover:bg-gray-light hover:bg-opacity-40 duration-300 rounded-full cursor-pointer`}
+`;
+
+export const Overlay = styled.div<{ isExtendDrawer: boolean }>`
+  ${tw`absolute inset-0 bg-primary bg-opacity-30 duration-300`}
+  ${({ isExtendDrawer }) =>
+    isExtendDrawer ? tw`visible opacity-100` : tw`invisible opacity-0`}
+`;

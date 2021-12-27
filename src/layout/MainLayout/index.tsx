@@ -1,7 +1,17 @@
-import { MainLayoutContainer, Wrapper } from "./styles";
+import { useCallback, useEffect } from "react";
+
+import {
+  MainLayoutContainer,
+  Wrapper,
+  IconWrapper,
+  HamburgerIcon,
+} from "./styles";
 
 import Drawer from "./Drawer";
-import { useCallback, useEffect } from "react";
+
+import { useStore } from "hooks";
+import { IGlobalStates } from "store/reducer";
+import { actions } from "store";
 
 interface IMainLayoutProps {}
 
@@ -37,8 +47,19 @@ const MainLayout: React.FC<IMainLayoutProps> = props => {
     handleActiveMenu();
   }, []);
 
+  const [state, dispatch] = useStore();
+
+  const { isExtendDrawer } = (state as IGlobalStates) || {};
+
+  const handleExtendDrawer = () => {
+    dispatch(actions.isExtendDrawer(!isExtendDrawer));
+  };
+
   return (
     <MainLayoutContainer>
+      <IconWrapper onClick={handleExtendDrawer}>
+        <HamburgerIcon width={20} height={20} />
+      </IconWrapper>
       <Drawer />
       <Wrapper id="wrapper" onScroll={handleActiveMenu}>
         {children}

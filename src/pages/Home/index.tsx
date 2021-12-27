@@ -10,7 +10,7 @@ import Interests from "./components/Interests";
 const Home = () => {
   return (
     <MainLayout>
-      <Container id="content" className="container">
+      <Container id="content">
         <About />
         <Experience />
         <Education />
