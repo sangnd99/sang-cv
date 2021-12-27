@@ -5,7 +5,7 @@ export const DrawerContainer = styled.div<{
   isCollapseDrawer: boolean;
   isExtendDrawer: boolean;
 }>`
-  ${tw`fixed laptop:relative w-30 bg-primary text-white h-screen px-1 duration-300`}
+  ${tw`fixed laptop:relative w-30 bg-primary text-white h-screen px-1 duration-300 z-50`}
   ${({ isCollapseDrawer }) => (isCollapseDrawer ? tw`w-7.5` : tw`w-30`)}
   ${({ isExtendDrawer }) =>
     isExtendDrawer ? tw`left-0` : tw`-left-full laptop:left-0`}
@@ -26,7 +26,7 @@ export const Image = styled.img`
 `;
 
 export const Name = styled.p`
-  ${tw`text-24 font-bold text-center whitespace-nowrap`}
+  ${tw`text-24 font-semibold text-center whitespace-nowrap`}
 `;
 
 export const Social = styled.div`
@@ -65,7 +65,7 @@ export const IconWrapper = styled.div`
 `;
 
 export const Overlay = styled.div<{ isExtendDrawer: boolean }>`
-  ${tw`absolute inset-0 bg-primary bg-opacity-30 duration-300`}
+  ${tw`absolute z-40 inset-0 bg-primary bg-opacity-30 duration-300`}
   ${({ isExtendDrawer }) =>
     isExtendDrawer ? tw`visible opacity-100` : tw`invisible opacity-0`}
 `;

@@ -20,7 +20,7 @@ import {
 const About = () => {
   return (
     <Fade>
-      <AboutContainer id="about">
+      <AboutContainer id="about" className="wrapper">
         <InfoWrapper>
           <Name>
             NGUYỄN ĐÌNH <Highlight>SANG</Highlight>

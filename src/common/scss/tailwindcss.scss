@@ -1,0 +1,5 @@
+@layer utilities {
+  .wrapper {
+    @apply p-2 phone:p-6;
+  }
+}
