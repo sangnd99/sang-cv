@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sang-cv/static/css/main.ab770a8b.css",
-    "main.js": "/sang-cv/static/js/main.696490ae.js",
+    "main.css": "/sang-cv/static/css/main.14a58543.css",
+    "main.js": "/sang-cv/static/js/main.03f53d2a.js",
     "static/js/787.8b8db8a6.chunk.js": "/sang-cv/static/js/787.8b8db8a6.chunk.js",
     "static/media/avatar.jpg": "/sang-cv/static/media/avatar.1efbb11a029a95273995.jpg",
     "static/media/Poppins-Regular.ttf": "/sang-cv/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -21,12 +21,13 @@
     "static/media/mail.svg": "/sang-cv/static/media/mail.aa914b46985e1557e794f0b2c8f59131.svg",
     "static/media/linkedin.svg": "/sang-cv/static/media/linkedin.b898a9c66e7c7340f4a088360bc9bab2.svg",
     "static/media/phone.svg": "/sang-cv/static/media/phone.a5e413c0563424cd7687734d0c19d249.svg",
-    "main.ab770a8b.css.map": "/sang-cv/static/css/main.ab770a8b.css.map",
-    "main.696490ae.js.map": "/sang-cv/static/js/main.696490ae.js.map",
+    "static/media/hamburger.svg": "/sang-cv/static/media/hamburger.dec17d1d75f3999a50eb31951c8e3a3d.svg",
+    "main.14a58543.css.map": "/sang-cv/static/css/main.14a58543.css.map",
+    "main.03f53d2a.js.map": "/sang-cv/static/js/main.03f53d2a.js.map",
     "787.8b8db8a6.chunk.js.map": "/sang-cv/static/js/787.8b8db8a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab770a8b.css",
-    "static/js/main.696490ae.js"
+    "static/css/main.14a58543.css",
+    "static/js/main.03f53d2a.js"
   ]
 }
