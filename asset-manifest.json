@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sang-cv/static/css/main.14a58543.css",
-    "main.js": "/sang-cv/static/js/main.03f53d2a.js",
+    "main.css": "/sang-cv/static/css/main.67cc3696.css",
+    "main.js": "/sang-cv/static/js/main.ece4f33d.js",
     "static/js/787.8b8db8a6.chunk.js": "/sang-cv/static/js/787.8b8db8a6.chunk.js",
     "static/media/avatar.jpg": "/sang-cv/static/media/avatar.1efbb11a029a95273995.jpg",
     "static/media/Poppins-Regular.ttf": "/sang-cv/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -22,12 +22,13 @@
     "static/media/linkedin.svg": "/sang-cv/static/media/linkedin.b898a9c66e7c7340f4a088360bc9bab2.svg",
     "static/media/phone.svg": "/sang-cv/static/media/phone.a5e413c0563424cd7687734d0c19d249.svg",
     "static/media/hamburger.svg": "/sang-cv/static/media/hamburger.dec17d1d75f3999a50eb31951c8e3a3d.svg",
-    "main.14a58543.css.map": "/sang-cv/static/css/main.14a58543.css.map",
-    "main.03f53d2a.js.map": "/sang-cv/static/js/main.03f53d2a.js.map",
+    "static/media/bookmark.svg": "/sang-cv/static/media/bookmark.85066f6df743a1ceb0f9.svg",
+    "main.67cc3696.css.map": "/sang-cv/static/css/main.67cc3696.css.map",
+    "main.ece4f33d.js.map": "/sang-cv/static/js/main.ece4f33d.js.map",
     "787.8b8db8a6.chunk.js.map": "/sang-cv/static/js/787.8b8db8a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a58543.css",
-    "static/js/main.03f53d2a.js"
+    "static/css/main.67cc3696.css",
+    "static/js/main.ece4f33d.js"
   ]
 }
