@@ -30,6 +30,7 @@ module.exports = {
           light: "#ced4da",
           dark: "#6c757d",
         },
+        orange: "#e69b32",
       },
       fontSize: {
         14: "14px",
@@ -57,6 +58,7 @@ module.exports = {
         10: "100px",
         12: "120px",
         20: "200px",
+        25: "250px",
         30: "300px",
       },
       padding: {

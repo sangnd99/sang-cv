@@ -11,7 +11,11 @@ interface ISVGProps
 const SVG: React.FC<ISVGProps> = props => {
   const { name, ...restProps } = props;
   return (
-    <img {...(restProps as any)} src={require(`assets/svg/${name}.svg`)} />
+    <img
+      {...(restProps as any)}
+      src={require(`assets/svg/${name}.svg`)}
+      alt={`${name} icon`}
+    />
   );
 };
 

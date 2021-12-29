@@ -24,11 +24,11 @@ export const Highlight = styled.span`
 `;
 
 export const InfoContent = styled.p`
-  ${tw`flex items-start phone:items-center text-18 phone:text-20 font-medium text-primary my-1.5 leading-normal`}
+  ${tw`flex items-center text-16 phone:text-20 font-medium text-primary my-1.5 leading-normal`}
 `;
 
 export const IconWrapper = styled.div`
-  ${tw`flex items-start flex-shrink-0 w-2.5 phone:w-3 h-2.5 phone:h-3 mr-1`}
+  ${tw`flex items-center flex-shrink-0 w-2 phone:w-2.5 h-2 phone:h-2.5 mr-1 mb-auto`}
 `;
 
 export const LocationIcon = styled(_LocationIcon)`
@@ -48,15 +48,15 @@ export const Contact = styled.p`
 `;
 
 export const Link = styled.a`
-  ${tw`text-secondary`}
+  ${tw`text-secondary hover:text-orange duration-150`}
 `;
 
 export const Resume = styled.p`
-  ${tw`text-black text-16 phone:text-18 leading-normal`}
+  ${tw`text-black text-14 phone:text-18 leading-normal`}
 `;
 
 export const Framework = styled.p`
-  ${tw`mt-4 text-16 phone:text-18 leading-normal`}
+  ${tw`mt-4 text-14 phone:text-18 leading-normal`}
 `;
 
 export const ReactjsIcon = styled(_ReactjsIcon)`
