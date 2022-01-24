@@ -5,7 +5,7 @@ import Description from "component/Description";
 
 const Experience = () => {
   return (
-    <ExperienceContainer id="experience" className="wrapper">
+    <ExperienceContainer id="experience" className="wrapper vertical-center">
       <SectionTitle>EXPERIENCE</SectionTitle>
       <Description
         title="USUM Software Co., Ltd"
@@ -22,9 +22,10 @@ const Experience = () => {
 export default Experience;
 
 const listContent = [
-  `Participate in develop an admin and manager website for <strong>"Manage ktv room"</strong> and <strong>"Booking information of customers"</strong> using Reactjs, Material Ui, Tailwindcss, SASS...etc (Private internal)`,
-  `Participate in develop an admin website for <strong>"Booking, orgnizing tournaments and manage"</strong> sport team using Reactjs, Material Ui, Tailwindcss, SASS...etc (Private internal)`,
-  `Participate in develop an website for <strong>"Recruiment"</strong> and <strong>"Finding job"</strong> using Nextjs, Headless UI, Tailwindcss, Styled Component, Formik and validate with yup...etc (Private internal)`,
-  `Participate in develop an website for <strong>sell, rent, real estate posting...etc</strong> using Reactjs for admin website and Nextjs for user website`,
+  `Participate in develop an admin and manager website for <strong>"Manage ktv room"</strong> and <strong>"Booking information of customers"</strong> (Private internal)`,
+  `Participate in develop an admin website for <strong>"Booking, orgnizing tournaments and manage"</strong> sport team (Private internal)`,
+  `Participate in develop a website for <strong>"Recruiment"</strong> and <strong>"Finding job"</strong> (Private internal)`,
+  `Participate in develop a website for <strong>sell, rent, real estate posting...etc</strong>`,
+  `Participate in develop an e-commerce website for the <strong>Sell</strong> and <strong>Design</strong> of products (Private internal)`,
   `Mentor for internship.`,
 ];

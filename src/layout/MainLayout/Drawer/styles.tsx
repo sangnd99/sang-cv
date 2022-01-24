@@ -54,7 +54,7 @@ export const Menu = {
     ${tw`flex items-center gap-1 px-1.5 py-1.2 w-max text-gray hover:text-secondary-light duration-200 cursor-pointer`}
   `,
   Text: styled.p<{ isCollapseDrawer: boolean }>`
-    ${tw`text-16 font-medium group-hover:text-white duration-200 capitalize`}
+    ${tw`text-14 phone:text-16 font-medium group-hover:text-white duration-200 capitalize`}
     ${({ isCollapseDrawer }) =>
       isCollapseDrawer ? tw`invisible opacity-0` : tw`visible opacity-100`}
   `,

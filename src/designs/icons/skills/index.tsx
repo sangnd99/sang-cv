@@ -1,0 +1,12 @@
+export { ReactComponent as HtmlIcon } from "assets/svg/skills/html5.svg";
+export { ReactComponent as CssIcon } from "assets/svg/skills/css3.svg";
+export { ReactComponent as TailwindIcon } from "assets/svg/skills/tailwindcss.svg";
+export { ReactComponent as ReactjsIcon } from "assets/svg/skills/reactjs.svg";
+export { ReactComponent as NextjsIcon } from "assets/svg/skills/nextjs.svg";
+export { ReactComponent as JavascriptIcon } from "assets/svg/skills/javascript.svg";
+export { ReactComponent as TypescriptIcon } from "assets/svg/skills/typescript.svg";
+export { ReactComponent as SassIcon } from "assets/svg/skills/sass.svg";
+export { ReactComponent as GitIcon } from "assets/svg/skills/git.svg";
+export { ReactComponent as FigmaIcon } from "assets/svg/skills/figma.svg";
+export { ReactComponent as GraphqlIcon } from "assets/svg/skills/graphql.svg";
+export { ReactComponent as SlackIcon } from "assets/svg/skills/slack.svg";

@@ -8,7 +8,7 @@ import {
 } from "designs/icons/common";
 
 export const AboutContainer = styled.section`
-  ${tw`w-full h-screen flex flex-col justify-center`}
+  ${tw`w-full h-screen`}
 `;
 
 export const InfoWrapper = styled.div`

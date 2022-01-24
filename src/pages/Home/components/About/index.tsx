@@ -1,5 +1,3 @@
-import Fade from "react-reveal/Fade";
-
 import {
   AboutContainer,
   InfoWrapper,
@@ -19,7 +17,7 @@ import {
 
 const About = () => {
   return (
-    <AboutContainer id="about" className="wrapper">
+    <AboutContainer id="about" className="wrapper vertical-center">
       <InfoWrapper>
         <Name>
           NGUYỄN ĐÌNH <Highlight>SANG</Highlight>
@@ -28,7 +26,7 @@ const About = () => {
           <IconWrapper>
             <LocationIcon height={25} width={25} />
           </IconWrapper>
-          311 Le Hong Phong Street, District 10, Ward 2, Ho Chi Minh city
+          311 Le Hong Phong Street, Ward 2, District 10, Ho Chi Minh city
         </InfoContent>
         <InfoContent>
           <IconWrapper>

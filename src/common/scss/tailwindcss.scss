@@ -2,4 +2,7 @@
   .wrapper {
     @apply px-2 phone:px-6 py-6;
   }
+  .vertical-center {
+    @apply flex flex-col justify-center;
+  }
 }

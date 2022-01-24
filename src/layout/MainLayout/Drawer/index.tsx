@@ -12,7 +12,7 @@ import {
   Overlay,
 } from "./styles";
 
-import { GithubIcon, LinkedinIcon } from "designs/icons/social";
+import { GithubIcon, LinkedinIcon, FacebookIcon } from "designs/icons/social";
 import {
   AboutIcon,
   SkillsIcon,
@@ -78,6 +78,9 @@ const Drawer = () => {
             >
               <LinkedinIcon width={18} height={18} />
             </Link>
+            <Link target="_blank" href="https://www.facebook.com/sang.demons/">
+              <FacebookIcon width={18} height={18} />
+            </Link>
           </Social>
         </InfoWrapper>
         <Menu.List id="navbar">
@@ -115,5 +118,5 @@ const listMenu = [
   { name: "experience", Icon: ExperienceIcon },
   { name: "education", Icon: EducationIcon },
   { name: "skills", Icon: SkillsIcon },
-  { name: "interests", Icon: InterestsIcon },
+  // { name: "interests", Icon: InterestsIcon },
 ];
