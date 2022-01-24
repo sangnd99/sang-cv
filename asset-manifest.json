@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sang-cv/static/css/main.799dd0e5.css",
-    "main.js": "/sang-cv/static/js/main.85440c63.js",
+    "main.css": "/sang-cv/static/css/main.156b27b9.css",
+    "main.js": "/sang-cv/static/js/main.af002e64.js",
     "static/js/787.8b8db8a6.chunk.js": "/sang-cv/static/js/787.8b8db8a6.chunk.js",
     "static/media/avatar.jpg": "/sang-cv/static/media/avatar.1efbb11a029a95273995.jpg",
     "static/media/Poppins-Regular.ttf": "/sang-cv/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -9,26 +9,38 @@
     "static/media/Poppins-SemiBold.ttf": "/sang-cv/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/sang-cv/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-Black.ttf": "/sang-cv/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
-    "static/media/reactjs.svg": "/sang-cv/static/media/reactjs.7aa391ed495db414b2c0746f87d953e2.svg",
+    "static/media/sass.svg": "/sang-cv/static/media/sass.7a50e25bcc6638d92f78d4c976babcf2.svg",
+    "static/media/reactjs.svg": "/sang-cv/static/media/reactjs.d95e2b264fc507bb5148e6df1b14b259.svg",
     "index.html": "/sang-cv/index.html",
     "static/media/github.svg": "/sang-cv/static/media/github.e8b1326053414d26ec0ff080d8d8001b.svg",
+    "static/media/graphql.svg": "/sang-cv/static/media/graphql.d27847721dce1f6e72afcff581ad57e4.svg",
     "static/media/education.svg": "/sang-cv/static/media/education.629e639de4846329eb712022e485b0b0.svg",
+    "static/media/slack.svg": "/sang-cv/static/media/slack.7a8b581ae2b27174a51e89744ae3c531.svg",
+    "static/media/javascript.svg": "/sang-cv/static/media/javascript.235dac7e2130dcd1f0497be1d73393e4.svg",
     "static/media/location.svg": "/sang-cv/static/media/location.567d211c0465c6cf8345e4563217cf2f.svg",
+    "static/media/typescript.svg": "/sang-cv/static/media/typescript.8b145736f56dd8cee714f2b670a0514f.svg",
     "static/media/interests.svg": "/sang-cv/static/media/interests.ca6506d7eeb2c87e08e1626ae43a8d0a.svg",
     "static/media/experience.svg": "/sang-cv/static/media/experience.3710737ef58eddeacfa4d4c001dde5d6.svg",
+    "static/media/git.svg": "/sang-cv/static/media/git.57a595bfe5d027f19533191e00c7d24a.svg",
     "static/media/skill.svg": "/sang-cv/static/media/skill.904d5e8d6342d9f8aa9081e48d56434c.svg",
     "static/media/about.svg": "/sang-cv/static/media/about.9a6e95da59005d4f13192a4a956b33d0.svg",
     "static/media/mail.svg": "/sang-cv/static/media/mail.aa914b46985e1557e794f0b2c8f59131.svg",
+    "static/media/tailwindcss.svg": "/sang-cv/static/media/tailwindcss.9f1508a1e9ddac168db14cfedaad01fa.svg",
+    "static/media/figma.svg": "/sang-cv/static/media/figma.9c971162e116aaad5337fec17acc8a0c.svg",
     "static/media/linkedin.svg": "/sang-cv/static/media/linkedin.b898a9c66e7c7340f4a088360bc9bab2.svg",
     "static/media/phone.svg": "/sang-cv/static/media/phone.a5e413c0563424cd7687734d0c19d249.svg",
+    "static/media/css3.svg": "/sang-cv/static/media/css3.91847307a2a4ad383f1f1312accf1e10.svg",
     "static/media/hamburger.svg": "/sang-cv/static/media/hamburger.dec17d1d75f3999a50eb31951c8e3a3d.svg",
+    "static/media/html5.svg": "/sang-cv/static/media/html5.ca530831ff7e1ed827fbe1b2380d5018.svg",
+    "static/media/facebook.svg": "/sang-cv/static/media/facebook.e4bebb8d2eee0f8395f0906c7182eba3.svg",
     "static/media/bookmark.svg": "/sang-cv/static/media/bookmark.c73acd8731dcfeb11518.svg",
-    "main.799dd0e5.css.map": "/sang-cv/static/css/main.799dd0e5.css.map",
-    "main.85440c63.js.map": "/sang-cv/static/js/main.85440c63.js.map",
+    "static/media/nextjs.svg": "/sang-cv/static/media/nextjs.7b3145b10ae9a4e6315eba1f5ac3defa.svg",
+    "main.156b27b9.css.map": "/sang-cv/static/css/main.156b27b9.css.map",
+    "main.af002e64.js.map": "/sang-cv/static/js/main.af002e64.js.map",
     "787.8b8db8a6.chunk.js.map": "/sang-cv/static/js/787.8b8db8a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.799dd0e5.css",
-    "static/js/main.85440c63.js"
+    "static/css/main.156b27b9.css",
+    "static/js/main.af002e64.js"
   ]
 }
